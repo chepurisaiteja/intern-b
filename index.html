@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="logo">
+       <img src="D:\intern-b\company_logo.png" style="width:400px ;height:50px"></li>
+       
+    </div>
+    <div class="h1">
+        <ul>
+            <li style="font-size: 20px;"> RENEE MCKELEVEY</li>
+           <li style="font-size: 15px;">   Account settings </li>
+        </ul>
+    </div>
+    <div class="h2"> 
+        <img src="account.png"style=" width:40px;height:40px;" alt="">
+    </div>
+    <div class="search",name="search">
+        User list
+        <br>
+        <input type="text" name="search" placeholder="Search..">
+        
+    </div>
+      
+    <section>
+       
+        <div class="main">
+       
+            <div class="outer">
+                <div class="inner">
+                <table class="t1">
+                   
+                        <tr>
+                          <th><div class="name" style="width:100px; background-color:gray;">Name</div></th>
+                          <th><div class="role" style="width:160px ;background-color:gray">Role</div></th>
+                          <th><div style="width:68px;background-color:gray">Action</div></th>
+                        </tr>
+                </table>
+                </div>
+                <div class="headers">
+                    <table class="t2">
+                <tr>
+                  <td>john</td>
+                  <td>developer</td>
+                  <td><span class="material-icons">
+                    create
+                    </span></td>
+                </tr>
+                <tr>
+                  <td>Rahul</td>
+                  <td>developer</td>
+                  <td><span class="material-icons">
+                    create
+                    </span></td>
+                </tr>
+                <tr>
+                  <td>Marco</td>
+                  <td>QA</td>
+                  <td><span class="material-icons">
+                    create
+                    </span></td>
+                </tr>
+                <tr>
+                  <td>Polo</td>
+                  <td>Admin</td>
+                  <td><span class="material-icons">
+                    create
+                    </span></td>
+                </tr>
+                <tr>
+                    <td>joe</td>
+                    <td>QA</td>
+                    <td><span class="material-icons">
+                      create
+                      </span></td>
+                  </tr>
+                  <tr>
+                    <td>Flyod</td>
+                    <td>Admin</td>
+                    <td><span class="material-icons">
+                      create
+                      </span></td>
+                  </tr>
+                  <tr>
+                    <td>Rohit</td>
+                    <td>Developer</td>
+                    <td><span class="material-icons">
+                      create
+                      </span></td>
+                  </tr>
+            </table>
+        </div>
+    </div>
+    </div>
+</section>
+
+
+ <section>  
+       <div class="container">
+        <div class="user">
+            <div class="col-sm-2">
+
+            </div>
+                    <div class="col-sm-6">
+                      <label style="font-size:20px; color :gray;"> New User Details  </label>
+                <hr>
+                    <input type="text" placeholder="username" id="name" class="name">
+                <input type="text" placeholder="Email" id="mail" class="mail">
+                
+                <br>
+               <input type="text" placeholder="FirstName" id="fname">    
+               <input type="text" placeholder="LastName" id="lname" >
+                <br>
+                <select name="role" id="role" style="max-width:600px;">
+                    <option disabled="" selected="">Role</option>
+                    <option value="Admin">Admin</option>
+                    <option value="Developer">Developer</option>
+                    <option value="Manager">Manager</option>
+                    <option value="QA">QA</option>
+                  </select>
+                  <br>
+              
+                  <input type="checkbox" style="margin: 10px">
+                  <label for="checkbox"> Send Email Confirmation</label>
+                
+            </div>
+            <div class="col-sm-4">
+                <label style="font-size:20px;color: gray;"> Profile Picture </label>
+                 <hr>
+                <img src="#" width="250" height="250" id="output">	
+                <br>
+                <br>
+                <div class="upload-btn-wrapper">
+                    <button class="btn" style="background-color: gray;color:black">Select Image</button>
+                    <!-- <input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;"> -->
+                    <input type="file" accept=" image/jpeg, image/png" name="image"  id="file" onchange="loadFile(event)" />
+                  </div>
+            </div>
+            <hr width="80%" style="align:right;background-color:gray">
+            <div class="btns">
+                <button onclick="func()" style="background-color:rgb(153, 0, 153);color:white;border:none;width:100px;height:30px">Add User</button>
+                <button onclick="func5()" style="background-color: gray;color:white;border:none;width:100px;height:30px"> Cancel</button>
+            </div>
+           
+
+        </div>
+    </div>
+</section>
+
+    
+</body>
+</html>

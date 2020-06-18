@@ -1,0 +1,159 @@
+#name,#mail,#fname,#lname,#role{
+    margin:10px;
+}
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .btn {
+    border: 2px solid gray;
+    color: gray;
+    /* //background-color: white; */
+    padding: 8px 20px;
+    border-radius: 8px;
+    width: 250px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+  input[type="select"]
+  {
+      width:"100px;"
+  }
+  thead {color: green;}
+   
+div.btns
+  {
+    position :absolute;
+    left:200px;
+    top:500px;
+  }
+  div.pdiv1,div.pdv2{
+    padding:10px;
+  }
+  
+   div.demo{
+    position: relative;
+    left:220px;
+    top:80px;
+    height: 100px; 
+    width: 320px;
+
+   }
+
+  div.div1{
+    position: relative;
+    left:220px;
+    top:20px;
+    overflow: auto;
+    height:200px; 
+    width: 500px;
+  }
+  div.container{
+    position: absolute;
+    top:320px;
+    width:80%;
+  }
+table, td, th{  
+  border: 1px solid #ddd;
+  /* text-align: center; */
+}
+
+table {
+  /* border-collapse: collapse; */
+  width: 100%;
+}
+th{
+  background-color:gray;
+}
+
+th, td {
+  padding: 30px;
+}
+div.main{
+  top:60px;
+  left:220px;
+  position: absolute;
+}
+div.head{
+  position: fixed;
+  width:200px;
+} 
+.outer {
+  position:relative;
+  width:800px;
+  height:100px;
+  }
+  .inner {
+  height:130px;
+  width:800px;
+  position:absolute;
+  top:90px;
+  left:20px;
+  /* background-color:lightgray; */
+  }
+  .headers {
+  position:relative;
+  width:800px; 
+  top:110px;
+  left:20px;
+  height:130px;
+  overflow-y:scroll;
+  }
+  .t1{
+    z-index:0;
+  }
+  .t2{
+    z-index:1;
+  }
+  .tab1 { 
+    tab-size: 2; 
+} 
+input[name="search"]
+{
+  border-radius: 30px;;
+}
+div.search{
+  left:250px;
+  top:60px;
+  position: absolute;
+}
+  div.main{
+    position:absolute;
+    top:40px;
+  }
+  div.logo{
+    position:absolute;
+    left:200px;
+  }
+  div.h1
+  {
+    position: absolute;
+    left:1100px;
+  }
+  ul {
+    list-style-type: none;
+  }
+  div.h2{
+    position: absolute;
+    left:1350px;
+  }
+  #h2{ background: black; width: 128px; height: 128px; border-radius: 64px; border: 2px solid orange; }
+  .span
+  {
+    height: 30px;
+    width: 30px;
+  
+    border-radius: 70%;
+    border-color: black;
+    display: inline-block;
+  }
